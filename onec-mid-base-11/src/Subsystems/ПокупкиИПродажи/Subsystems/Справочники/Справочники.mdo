@@ -5,6 +5,7 @@
     <key>ru</key>
     <value>Справочники</value>
   </synonym>
+  <comment>Нетология, ДЗ 13-7. Молотков, 06.11.2026. Перенос справочников ДЗ_Должности и ДЗ_КонтактныеЛица, включение в подсистему ПокупкиИПродажи.Справочники.</comment>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Catalog.Контрагенты</content>
@@ -12,5 +13,7 @@
   <content>Catalog.НоменклатурныеГруппы</content>
   <content>Catalog.ДоговорыКонтрагентов</content>
   <content>Catalog.Организации</content>
+  <content>Catalog.ДЗ_Должности</content>
+  <content>Catalog.ДЗ_КонтактныеЛица</content>
   <parentSubsystem>Subsystem.ПокупкиИПродажи</parentSubsystem>
 </mdclass:Subsystem>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e8d4c630-f2d3-48af-89c1-33519820ba41">
+  <producedTypes>
+    <objectType typeId="bf8adbf4-aa87-4b72-a86d-a2ba1040000b" valueTypeId="439272a2-120c-4f71-ac59-124f7c0ebc88"/>
+    <refType typeId="9d86c321-49b3-4549-bf15-af04ffe7d363" valueTypeId="84d557e6-cd56-4a39-8e3f-40d9d2f92dc2"/>
+    <selectionType typeId="f96342ad-c414-4f50-ac96-1339366ef311" valueTypeId="f264d16e-75e5-431a-be1b-088977a0b761"/>
+    <listType typeId="cf6b33b1-b7d2-4b26-a7d2-5247f2faa5c8" valueTypeId="a441546c-057c-403c-9939-775f44e74114"/>
+    <managerType typeId="3c350fb7-2856-4b3d-83ce-7d7f93ffe13f" valueTypeId="23490de1-aa67-4e05-aae4-a6ca9a742946"/>
+  </producedTypes>
+  <name>ДЗ_Должности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должности</value>
+  </synonym>
+  <comment>Нетология, ДЗ 13-7. Молотков, 06.11.2026. Перенос справочников ДЗ_Должности и ДЗ_КонтактныеЛица, включение в подсистему ПокупкиИПродажи.Справочники.</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ДЗ_Должности.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ДЗ_Должности.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Должность</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Должности</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
