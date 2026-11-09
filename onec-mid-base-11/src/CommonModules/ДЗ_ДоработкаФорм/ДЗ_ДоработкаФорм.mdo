@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3f1542de-ad44-43e6-b522-c9ce809d4621">
+  <name>ДЗ_ДоработкаФорм</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доработка форм</value>
+  </synonym>
+  <comment>Нетология, ДЗ 13-7. Молотков, 06.11.2026. Программное добавление контактного лица на формы документов.</comment>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>
